@@ -18,8 +18,9 @@ jobs:
         run:
           npm install
           npm run build
+          
   test:
-    runs-on: ubuntu-lastes
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
