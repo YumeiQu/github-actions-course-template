@@ -1,6 +1,9 @@
 name: QUCI
-on: [push]
-  
+on: 
+  push:
+    branches: [ qu_test ]
+  pull_request:
+    branches: [ qu_test ]
 jobs:
   job1:
     runs-on: ubuntu-lastest
