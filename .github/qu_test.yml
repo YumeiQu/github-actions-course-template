@@ -2,11 +2,13 @@ name: QUCI
 on: [push]
   
 jobs:
-  runs-on: ubuntu-lastest
-  steps:
-    echo $PATH
-    node -v
-    npm -v
-    python --version
-    java --version
-    go version
+  job1:
+    runs-on: ubuntu-lastest
+    steps:
+    - run:
+        echo $PATH
+        node -v
+        npm -v
+        python --version
+        java --version
+        go version
