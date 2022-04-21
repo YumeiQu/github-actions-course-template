@@ -53,6 +53,7 @@ jobs:
           echo $PATH
           node -v
           npm -v
+          echo ${{ secrets.qu_password }}
         env:
           CI: true
    
