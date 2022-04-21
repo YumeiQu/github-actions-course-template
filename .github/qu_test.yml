@@ -10,5 +10,3 @@ jobs:
     python --version
     java --version
     go version
-    mvn -version
-    
