@@ -49,7 +49,7 @@ jobs:
           npm install
           npm test
       - name: QU_Own_Test
-        run:
+        run: |
           echo $PATH
           node -v
           npm -v
