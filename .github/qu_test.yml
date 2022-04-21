@@ -11,4 +11,4 @@ jobs:
     java --version
     go version
     mvn -version
-    git version
+    
