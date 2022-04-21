@@ -50,14 +50,9 @@ jobs:
           npm test
       - name: QU_Own_Test
         run:
-            echo $PATH
-            node -v
-            npm -v
-            python --version
-            java --version
-            go version
-            mvn -version
-            git version
+          echo $PATH
+          node -v
+          npm -v
         env:
           CI: true
    
